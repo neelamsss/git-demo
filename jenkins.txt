@@ -1,1 +1,4 @@
-hello  this is my first project
+node
+{
+echo "hello this is my first build"
+}
