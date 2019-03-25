@@ -1,0 +1,4 @@
+node
+{
+echo "hello world"
+}
