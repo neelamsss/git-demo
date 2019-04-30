@@ -1,4 +1,4 @@
 node
 {
-echo "hello world"
+echo "This is my first web-hook"
 }
