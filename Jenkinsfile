@@ -20,6 +20,7 @@ pipeline {
         echo "heart"
         echo "haileee"
         echo"im saisri"
+        echo"hi"
       }
     }
   }
