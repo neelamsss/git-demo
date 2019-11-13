@@ -23,6 +23,7 @@ pipeline {
         echo"hi"
         echo"hello"
         echo"hh"
+        echo "jay"
       }
     }
   }
