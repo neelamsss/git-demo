@@ -19,6 +19,7 @@ pipeline {
         echo "Heal it"
         echo "heart"
         echo "haileee"
+        echo"ramya"
       }
     }
   }
