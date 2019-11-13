@@ -18,6 +18,7 @@ pipeline {
         echo "World"
         echo "Heal it"
         echo "heart"
+        echo "haileee"
       }
     }
   }
