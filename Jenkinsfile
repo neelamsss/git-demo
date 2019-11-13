@@ -21,6 +21,7 @@ pipeline {
         echo "haileee"
         echo"im saisri"
         echo"hi"
+        echo"hello"
       }
     }
   }
