@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/neelamsss/git-demo/blob/mybranch/Dockerfile’
+        git 'https://github.com/neelamsss/git-demo/’
       }
     }
     stage('Build') {
