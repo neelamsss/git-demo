@@ -1,32 +1,9 @@
-pipeline {
-  agent any
+node {
+    stage('SCM CHECKOUT') {
+        git credentialsId: 'git-creds', url: 'https://github.com/lakshma009/repo1.git'
+    }
 
-  stages {
-    stage("Hello") {
-      steps {
-        echo "Hello"
-      }
+    stage('shell script') {
+        sh 'sh az.sh'
     }
-    stage("Branch Test") {
-      when {
-        // skip this stage unless branch is NOT master
-        not {
-          branch "master"
-        }
-      }
-      steps {
-        echo "World"
-        echo "Heal it"
-        echo "heart"
-        echo "haileee"
-        echo"im saisri"
-        echo"hi"
-        echo"hello"
-        echo"hh"
-        echo "jay"
-        echo "jjhat"
-        echo"hai sri"
-      }
-    }
-  }
 }
